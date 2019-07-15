@@ -3,6 +3,6 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/gsdh-group/cjy09oz3k0myk1cp81d193j7l',
     center: [-73.7, 45.5],
-    minZoom: 3,
+    minZoom: 8.5,
     zoom: 8.5
 });

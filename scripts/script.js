@@ -6,3 +6,8 @@ var map = new mapboxgl.Map({
     minZoom: 8.5,
     zoom: 8.5
 });
+
+/*
+$( "#success-btn" ).click(function() {
+  $( "div.scroll-message" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
+});*/

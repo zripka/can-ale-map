@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset='utf-8' />
-<title>Montreal Can-ALE Data</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.css' rel='stylesheet' />
-<link href='styles/stylesheet.css' rel='stylesheet'>
-</head>
-<body>
- 
-<div id='map'></div>
- 
-<div id='state-legend' class='legend'>
-<div><span style='background-color: #5868a5'></span>ALE Class 5</div>
-<div><span style='background-color: #7485b8'></span>ALE Class 4</div>
-<div><span style='background-color: #a8badc'></span>ALE Class 3</div>
-<div><span style='background-color: #bfcee8'></span>ALE Class 2</div>
-<div><span style='background-color: #e0e9f5'></span>ALE Class 1</div>
-<div><span style='background-color: #bfbfbf'></span>No data</div>
-</div>
- 
-<script src='scripts/script.js'></script>
- 
-</body>
+   <head>
+      <meta charset='utf-8' />
+      <title>Montreal Can-ALE Data</title>
+      <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+      <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.js'></script>
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap" rel="stylesheet">
+      <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.css' rel='stylesheet' />
+      <link href='styles/stylesheet.css' rel='stylesheet'>
+   </head>
+   <body>
+      <div id='map'></div>
+      <div id='title'>Montreal, Canada by Can-ALE Class</div>
+      <!--<div class='scroll-message'>scroll to zoom</div>-->
+      <div id='state-legend' class='legend'>
+         <div><span style='background-color: #5868a5'></span>ALE Class 5</div>
+         <div><span style='background-color: #7485b8'></span>ALE Class 4</div>
+         <div><span style='background-color: #a8badc'></span>ALE Class 3</div>
+         <div><span style='background-color: #bfcee8'></span>ALE Class 2</div>
+         <div><span style='background-color: #e0e9f5'></span>ALE Class 1</div>
+         <div><span style='background-color: #bfbfbf'></span>No data</div>
+      </div>
+      <script src='scripts/script.js'></script>
+   </body>
 </html>

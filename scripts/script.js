@@ -7,7 +7,6 @@ var map = new mapboxgl.Map({
     zoom: 8.5
 });
 
-/*
-$( "#success-btn" ).click(function() {
-  $( "div.scroll-message" ).fadeIn( 300 ).delay( 1500 ).fadeOut( 400 );
-});*/
+$(document).ready(function(){
+		$(".scroll-message").delay(2000).fadeIn(1000).delay(1200).fadeOut(1000);
+});

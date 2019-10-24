@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <!--Set the charset, give title, set viewport, import mapbox js library, import fonts, import mapbox stylesheet, import local stylesheet, import jquery js library-->
       <meta charset='utf-8' />
-      <title>HI CAMILLE</title>
+      <title>Can-ALE Map</title>
       <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
       <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.1.0/mapbox-gl.js'></script>
       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:600&display=swap" rel="stylesheet">
@@ -10,10 +11,15 @@
       <link href='styles/stylesheet.css' rel='stylesheet'>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
    </head>
+
    <body>
+   	<!--Create map object-->
       <div id='map'></div>
+      <!--Create title object-->
       <div class='title'>Montreal, Canada by Can-ALE Class</div>
+      <!--Create scroll message-->
       <div class='scroll-message'>scroll to zoom</div>
+      <!--Create legend object with colours and style for each class-->
       <div id='state-legend' class='legend'>
          <div><span style='background-color: #343e65'></span>ALE Class 5</div>
          <div><span style='background-color: #455687'></span>ALE Class 4</div>
@@ -22,6 +28,7 @@
          <div><span style='background-color: #e0e9f5'></span>ALE Class 1</div>
          <div><span style='background-color: #bfbfbf'></span>No data</div>
       </div>
+      <!--run script-->
       <script src='scripts/script.js'></script>
    </body>
 </html>

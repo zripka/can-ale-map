@@ -6,10 +6,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZ3NkaC1ncm91cCIsImEiOiJjanh6Mzg4azkwMGMwM2Rsa
 //create the mapboxGL map object with DOM container, map style (from mapbox account), center point, zoom limit, and default zoom level specified
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/gsdh-group/cjy4sm7q502611emkkiw0ugnr',
-    center: [-73.7, 45.56],
-    minZoom: 8.5,
-    zoom: 8.5
+    style: 'mapbox://styles/gsdh-group/ck44ku2t816i51cp3fzkqvnfb',
+    center: [-91.830, 54.321],
+    minZoom: 3.5,
+    zoom: 3.5
 });
 
 //fade in and fade out scroll message
